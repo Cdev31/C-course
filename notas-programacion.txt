@@ -1,0 +1,42 @@
+QUE SON LOS NUMEROS BINARIOS Y SU RELACION CON LAS BASES?
+
+Para entender los numeros binarios debemos conceptualizar lo que son las bases en sistemas numericos,los 
+cuales podemos definir como la cantidad de digitos que podemos utlizar, como por ejemplo el sistema numerico
+decimal el cual nos brinda un sistema de el 0 al 9, se dice decimal por la cantidad de numeros los cuales nos
+ayudan a representar cantidades, entonces cuando hablamos de bases hablamos de la cantidad de numeros u objetos
+matematicos disponibles para representar cantidades.
+
+Algunos ejemplos:
+
+-Sitema decimal: Base 10
+
+-Sistema hexadecimal: Base 16
+
+-Sistema binario: Base 2
+
+-Sistema tetradecimal: Base 4
+
+
+
+
+LOS NUMEROS BINARIOS Y SU RELACION CON LA ARITMETICA.
+
+Primero debemos de tener claro que el sistema binario es independiente de lo que es la computacion, la computacion
+adapto el sistema binario en base a ciertos estandares para representar informacion dado que la representacion binaria
+consta nada mas de 1 y 0, el cual representaba muy bien los valores de verdadero y falso. Profundizando mas en este tema 
+y el por que del sistema binario como sistema principal para las operaciones computacionales, podemos definir que el 1 y 0
+definian bien lo que era el flujo de energia electrica, dado que representa la ausecia o existencia de el flujo electrico, 
+siendo asi el 1 como existencia de el flujo de energia y el 0 la ausencia de la misma.
+
+Nota: Debemos de entender que el sistema binario y la explicacion anterior es una aplicacion de el mismo sistema.
+
+Y ahora que relacion tiene esto con la aritmetica?, sencillo al entender que el sistema binario es una representacion diferente
+a el sistema decimal, definiendo el sistema binario como cantidades que siguen las reglas aritmeticas, podemos intuir que estas 
+cantidades siguen las reglas aritmeticas y algebraicas, por ende pueden ser sumadas, restadas, divididas, multiplicadas, etc.
+por ende es de entender que solo es un sistema el cual nos ayuda a representar de otra forma las cantidades y que pueden ser 
+aplicadas a ciertas areas no solo computacionales(aunque en su mayoria sirven mas para esto).
+
+
+
+
+EQUIVALENCIAS BINARIAS ENTRE BASES Y CONVERSIONES ENTRE BASES.
