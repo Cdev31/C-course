@@ -1,35 +1,36 @@
 #include <iostream>
 #include <string>
+#include <cmath>
+
 using namespace std;
 
 
-bool isPrimeNumber( int number ){
-  int counter = 2;
+bool isPrimeNumber ( int num ){
+    int squareRoot = round( sqrt( num ) ); 
 
-  while ( counter * counter <= number ){
-    if( number % counter == 0 ){
-      return false;
+    int counter = 0;
+    int decrement = squareRoot;
+    while ( counter < squareRoot ){
+      if( squareRoot % decrement == 0 ){
+        return true;
+      }
+      counter++;
+      decrement--;
     }
-    number++;
-  }
-
-  return true;
+    return false;
 }
 
-int main( int argc, char* argv[] ){
+int main(){
 
-  int number; 
+  int num;
+  cout << "Ingrese el numero a evaluar si es primo" << endl;
+  cin >> num;
 
-  cout << "Ingrese el numero que quiere evaluar si es primo" << endl;
-  cin >> number;
-
-  bool isPrime = isPrimeNumber( number );
+  bool isPrime = isPrimeNumber( num );
 
   if( isPrime == true ){
-    cout << "El numero: " << number << "es primo" << endl;
+    cout << "Su numero:" << num << "es primo" << endl;
   }
-  else {
-    cout << "El numero: " << number << "no es primo" << endl;
-  }
+  else cout << "El numero:" << num << "no es primo" << endl;
 
-}
+};
