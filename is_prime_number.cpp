@@ -6,18 +6,30 @@ using namespace std;
 
 
 bool isPrimeNumber ( int num ){
-    int squareRoot = round( sqrt( num ) ); 
 
-    int counter = 0;
-    int decrement = squareRoot;
+    if( num == 1 ) return false;
+
+    int squareRoot = sqrt( num );  
+    int counter = 1;
+    int decrement = squareRoot  ;
+
     while ( counter < squareRoot ){
-      if( squareRoot % decrement == 0 ){
-        return true;
+     
+      if( decrement == 1 ){
+
+        return false;
+      
       }
+
+      if( num % decrement == 0 ){
+
+        return false;
+      }
+
       counter++;
       decrement--;
     }
-    return false;
+    return true;
 }
 
 int main(){
@@ -29,8 +41,8 @@ int main(){
   bool isPrime = isPrimeNumber( num );
 
   if( isPrime == true ){
-    cout << "Su numero:" << num << "es primo" << endl;
+    cout << "Su numero:" << num << " es primo" << endl;
   }
-  else cout << "El numero:" << num << "no es primo" << endl;
+  else cout << "El numero:" << num << " no es primo" << endl;
 
 };
